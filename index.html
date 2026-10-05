@@ -1,397 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ADARSH MODS • Daily Key</title>
-
-<style>
-:root{
-    --bg:#07090d;
-    --card:#11151c;
-    --line:#242b36;
-    --text:#f5f7fa;
-    --muted:#87909d;
-    --green:#00e887;
-    --green2:#00b96b;
-    --blue:#1597ff;
-    --red:#ff4d5e;
-}
-*{box-sizing:border-box}
-html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text)}
-body{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:18px;
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-}
-.container{width:100%;max-width:420px}
-#mainContainer,#bypassContainer{display:none}
-
-.card,.error-card{
-    position:relative;
-    overflow:hidden;
-    background:linear-gradient(145deg,#151a22,#0d1117);
-    border:1px solid var(--line);
-    border-radius:26px;
-    padding:28px 22px 22px;
-    box-shadow:0 24px 70px rgba(0,0,0,.55);
-}
-.card:before{
-    content:"";
-    position:absolute;
-    width:170px;height:170px;
-    right:-80px;top:-80px;
-    border-radius:50%;
-    background:rgba(0,232,135,.08);
-    filter:blur(5px);
-}
-.brand{
-    position:relative;
-    display:flex;
-    align-items:center;
-    gap:13px;
-    margin-bottom:25px;
-}
-.logo{
-    width:54px;height:54px;
-    border-radius:16px;
-    border:1px solid rgba(0,232,135,.55);
-    overflow:hidden;
-    background:#090c10;
-    flex:none;
-}
-.logo img{width:100%;height:100%;object-fit:cover;display:block}
-.brand-title{font-size:22px;font-weight:850;letter-spacing:.3px}
-.badge{
-    display:inline-block;
-    margin-top:4px;
-    padding:4px 8px;
-    border-radius:7px;
-    background:rgba(0,232,135,.10);
-    color:var(--green);
-    border:1px solid rgba(0,232,135,.22);
-    font-size:10px;
-    font-weight:800;
-    letter-spacing:1px;
-}
-.subtitle{color:var(--muted);font-size:13px;margin-bottom:24px}
-
-.label{
-    color:#68727f;
-    font-size:10px;
-    font-weight:800;
-    letter-spacing:1.5px;
-    margin:0 0 8px 2px;
-}
-.ip{
-    background:#0a0d12;
-    border:1px solid var(--line);
-    border-radius:13px;
-    padding:13px 14px;
-    color:var(--green);
-    font-family:"Courier New",monospace;
-    font-size:15px;
-    font-weight:700;
-    margin-bottom:19px;
-}
-.key-box{
-    background:#080b10;
-    border:1px solid rgba(0,232,135,.35);
-    border-radius:17px;
-    padding:20px 12px;
-    text-align:center;
-    box-shadow:inset 0 0 25px rgba(0,232,135,.035);
-}
-#finalKey{
-    color:var(--green);
-    font-family:"Courier New",monospace;
-    font-size:21px;
-    font-weight:800;
-    letter-spacing:1.5px;
-    word-break:break-all;
-}
-.btn{
-    width:100%;
-    border:0;
-    border-radius:13px;
-    padding:15px;
-    margin-top:12px;
-    font-size:14px;
-    font-weight:850;
-    cursor:pointer;
-    transition:.18s ease;
-}
-.btn:active{transform:scale(.98)}
-.copy{background:var(--green);color:#001b10}
-.copy:hover{background:#25f29c}
-.telegram{background:var(--blue);color:#fff}
-.telegram:hover{background:#39a8ff}
-.status{
-    text-align:center;
-    margin-top:18px;
-    color:#68727f;
-    font-size:11px;
-    letter-spacing:1px;
-}
-#error{
-    display:none;
-    text-align:center;
-    color:var(--red);
-    font-size:12px;
-    line-height:1.5;
-    margin-top:14px;
-}
-.footer{
-    text-align:center;
-    color:#39414d;
-    font-size:9px;
-    font-weight:800;
-    letter-spacing:2px;
-    margin-top:15px;
-}
-.error-card{
-    text-align:center;
-    padding:38px 25px;
-    background:linear-gradient(145deg,#1a1013,#110b0d);
-    border-color:#402028;
-}
-.error-icon{font-size:46px;margin-bottom:15px}
-.error-title{color:var(--red);font-size:23px;font-weight:850}
-.error-text{color:#8e7f83;font-size:13px;line-height:1.6;margin:12px 0 22px}
-.btn-red{background:var(--red);color:#fff}
-@media(max-width:350px){
-    .card{padding:23px 17px}
-    #finalKey{font-size:17px}
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get a Free Key</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #0b0c0e; }
+  </style>
 </head>
+<body class="text-white min-h-screen flex items-center justify-center p-4 selection:bg-zinc-700">
 
-<body>
-<div class="container">
+  <div class="w-full max-w-sm flex flex-col items-center">
+    
+    <!-- Profile Avatar -->
+    <div class="w-20 h-20 rounded-full overflow-hidden border border-zinc-700 mb-5 shadow-lg bg-zinc-900">
+      <img id="avatarImg" 
+           src="./avatar.png" 
+           alt="Avatar" 
+           onerror="this.onerror=null; this.src='https://api.dicebear.com/7.x/bottts/svg?seed=nipex';" 
+           class="w-full h-full object-cover" />
+    </div>
 
-<div id="mainContainer">
-<div class="card">
+    <!-- Title & Subtitle -->
+    <h1 class="text-2xl font-bold tracking-tight mb-2">Get a Free Key</h1>
+    <p class="text-zinc-400 text-xs text-center mb-6">Complete the step below to receive your access key.</p>
 
-    <div class="brand">
-        <div class="logo">
-            <img src="./assets/logo.png" alt="ADARSH MODS">
-        </div>
+    <!-- Progress Indicator -->
+    <div class="w-full flex items-center justify-between text-xs text-zinc-400 mb-6 px-1">
+      <div class="flex items-center gap-2">
+        <span class="w-5 h-5 rounded-full border border-zinc-300 text-white flex items-center justify-center font-semibold text-[10px]">1</span>
+        <span>Step 1 of 1</span>
+      </div>
+      <div class="flex-1 mx-3 h-0.5 bg-zinc-800 rounded">
+        <div class="h-0.5 bg-zinc-300 w-full rounded"></div>
+      </div>
+      <div class="w-3.5 h-3.5 rounded-full border border-zinc-700"></div>
+    </div>
+
+    <!-- Main Card -->
+    <div class="w-full bg-[#131417] border border-zinc-800 rounded-2xl p-5 shadow-2xl">
+      <h2 class="text-base font-semibold mb-2">First Step</h2>
+      <p class="text-zinc-400 text-xs leading-relaxed mb-4">
+        To continue, click the button below to complete the first step. You will be redirected and then return to this page once finished.
+      </p>
+
+      <!-- Security Notice -->
+      <div class="bg-[#1f1911] border border-amber-900/50 rounded-xl p-3 flex gap-3 items-start mb-5">
+        <svg class="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+        </svg>
         <div>
-            <div class="brand-title">ADARSH MODS</div>
-            <div class="badge">DAILY LICENSE</div>
+          <h3 class="text-amber-400 font-medium text-xs">Security Notice</h3>
+          <p class="text-amber-400/80 text-[11px] leading-tight mt-0.5">
+            The use of bots or any kind of automation will result in your key being banned.
+          </p>
         </div>
+      </div>
+
+      <!-- Action Area -->
+      <div id="actionArea">
+        <button id="stepBtn" onclick="startCheckpoint()" class="w-full bg-white hover:bg-zinc-200 text-black font-semibold py-3 px-4 rounded-xl flex items-center justify-center gap-2 transition text-sm cursor-pointer">
+          Continue to Step &rarr;
+        </button>
+      </div>
+
+      <!-- Error / Bypass Alert -->
+      <div id="errorAlert" class="mt-4 p-3 rounded-xl bg-rose-950/40 border border-rose-900/60 text-center hidden">
+        <p id="errorMsg" class="text-xs text-rose-400 font-medium"></p>
+        <button onclick="window.location.href=window.location.pathname" class="mt-2 text-[11px] text-zinc-400 underline hover:text-white">Try Again</button>
+      </div>
     </div>
 
-    <div class="subtitle">Secure license key generator • Reset every day at 6:00 AM IST</div>
+  </div>
 
-    <div class="label">YOUR PUBLIC IP</div>
-    <div class="ip" id="ipAddress">CONNECTING...</div>
+  <script>
+    // -------------------------------------------------------------------------
+    // CONFIGURATION
+    // -------------------------------------------------------------------------
+    const FIREBASE_URL = "https://adarsh-keys-default-rtdb.firebaseio.com";
+    const VPLINK_URL   = "https://vplink.in/Wbtd";
+    const MIN_SECONDS  = 15;
 
-    <div class="label">YOUR LICENSE KEY</div>
-    <div class="key-box">
-        <span id="finalKey">SECURE FETCHING...</span>
-    </div>
+    // HWID tracking
+    const params = new URLSearchParams(window.location.search);
+    const hwidParam = params.get("hwid");
+    if (hwidParam) localStorage.setItem("active_hwid", hwidParam);
 
-    <button class="btn copy" id="copyBtn" onclick="copyKey()">COPY LICENSE KEY</button>
-    <button class="btn telegram" onclick="openTelegram()">JOIN TELEGRAM</button>
+    const hwid = localStorage.getItem("active_hwid") || "DEVICE_TEST";
+    const isReturning = params.get("done") === "1";
 
-    <div class="status" id="status">SYSTEM: CONNECTING</div>
-    <div id="error">Unable to connect to IP service.<br>Please check your internet connection.</div>
+    function startCheckpoint() {
+      localStorage.setItem("step_started", "true");
+      localStorage.setItem("step_time", Date.now().toString());
+      window.location.href = VPLINK_URL;
+    }
 
-</div>
-</div>
+    async function processKey() {
+      if (!isReturning) return;
 
-<div id="bypassContainer">
-<div class="error-card">
-    <div class="error-icon">🚫</div>
-    <div class="error-title">Bypass Detected</div>
-    <div class="error-text">
-        Direct access is not allowed.<br>
-        Please open this generator through the official steps.
-    </div>
-    <button class="btn btn-red" onclick="location.href='steps.html'">RETURN TO STEPS</button>
-</div>
-</div>
+      const area = document.getElementById("actionArea");
+      const hasStarted = localStorage.getItem("step_started");
+      const startTime = parseInt(localStorage.getItem("step_time") || "0", 10);
+      const timeElapsed = (Date.now() - startTime) / 1000;
 
-<div class="footer">ADARSH MODS SECURITY SYSTEM</div>
-</div>
-
-<script>
-const IP_API="https://api.ipify.org?format=json";
-const TELEGRAM_LINK="https://t.me/adarsh_mods";
-const KEY_YEAR=2026;
-
-/* Access gate */
-function checkSecurity(){
-    const params=new URLSearchParams(window.location.search);
-    const source=params.get("source");
-    const referrer=document.referrer || "";
-
-    const allowed =
-        source === "official" ||
-        referrer.includes("vplink.in") ||
-        referrer.includes("vplink.io") ||
-        referrer.includes("lootdest.org") ||
-        referrer.includes("steps.html");
-
-    if(!allowed){
-        document.getElementById("bypassContainer").style.display="block";
+      // Verification checks
+      if (!hasStarted) {
+        showError("Bypass detected! You skipped the link step.");
         return;
+      }
+
+      if (timeElapsed < MIN_SECONDS) {
+        showError(`Bypass detected! Completed too quickly (${Math.round(timeElapsed)}s).`);
+        return;
+      }
+
+      // Cleanup session tokens
+      localStorage.removeItem("step_started");
+      localStorage.removeItem("step_time");
+      window.history.replaceState({}, document.title, window.location.pathname);
+
+      area.innerHTML = `<p class="text-xs text-center text-zinc-400">Saving key to Firebase...</p>`;
+
+      // Key format: KEY-XXXX-1234
+      const randHex = Math.random().toString(36).substring(2, 6).toUpperCase();
+      const generatedKey = `KEY-${randHex}-${Math.floor(1000 + Math.random() * 9000)}`;
+      const expiresAt = Date.now() + (24 * 60 * 60 * 1000); // 24 hours validity
+
+      try {
+        const res = await fetch(`${FIREBASE_URL}/keys/${hwid}.json`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ key: generatedKey, expiresAt: expiresAt })
+        });
+
+        if (!res.ok) throw new Error("Firebase write failed");
+
+        area.innerHTML = `
+          <div class="bg-black/60 border border-emerald-500/40 p-4 rounded-xl text-center">
+            <p class="text-xs text-emerald-400 font-semibold mb-2">Key Activated (24h)</p>
+            <input id="keyBox" type="text" readonly value="${generatedKey}" 
+                   class="w-full text-center bg-[#0e0f12] border border-zinc-700 py-2 rounded-lg font-mono text-sm text-white select-all mb-3 focus:outline-none" />
+            <button onclick="copyKey()" id="copyBtn" class="w-full bg-white hover:bg-zinc-200 text-black font-semibold py-2.5 rounded-lg text-xs transition">
+              Copy Key
+            </button>
+          </div>
+        `;
+      } catch (err) {
+        showError("Failed to save key. Verify Firebase Rules allow write access.");
+      }
     }
 
-    if(source==="official"){
-        const clean=window.location.protocol+"//"+
-            window.location.host+window.location.pathname;
-        window.history.replaceState({},document.title,clean);
+    function showError(msg) {
+      localStorage.removeItem("step_started");
+      localStorage.removeItem("step_time");
+      document.getElementById("actionArea").innerHTML = "";
+      document.getElementById("errorAlert").classList.remove("hidden");
+      document.getElementById("errorMsg").innerText = msg;
     }
 
-    document.getElementById("mainContainer").style.display="block";
-    generateLockedKey();
-    scheduleDailyRefresh();
-}
-
-/* Public IP */
-async function getPublicIP(){
-    const response=await fetch(IP_API,{cache:"no-store"});
-    if(!response.ok) throw new Error("IP request failed");
-    const data=await response.json();
-    if(!data.ip) throw new Error("IP not found");
-    return data.ip.trim();
-}
-
-/* India time */
-function getIndiaTime(){
-    const parts=new Intl.DateTimeFormat("en-US",{
-        timeZone:"Asia/Kolkata",
-        year:"numeric",month:"2-digit",day:"2-digit",
-        hour:"2-digit",minute:"2-digit",second:"2-digit",
-        hour12:false
-    }).formatToParts(new Date());
-
-    const v={};
-    parts.forEach(p=>{
-        if(p.type!=="literal") v[p.type]=Number(p.value);
-    });
-
-    return {
-        year:v.year,month:v.month,day:v.day,
-        hour:v.hour,minute:v.minute,second:v.second
-    };
-}
-
-/* Daily cycle — reset 6 AM IST */
-function getDailyCycle(){
-    const india=getIndiaTime();
-    let {year,month,day}=india;
-
-    if(india.hour<6){
-        const previous=new Date(Date.UTC(year,month-1,day));
-        previous.setUTCDate(previous.getUTCDate()-1);
-        year=previous.getUTCFullYear();
-        month=previous.getUTCMonth()+1;
-        day=previous.getUTCDate();
+    function copyKey() {
+      const box = document.getElementById("keyBox");
+      box.select();
+      navigator.clipboard.writeText(box.value);
+      const btn = document.getElementById("copyBtn");
+      btn.innerText = "Copied to Clipboard!";
+      setTimeout(() => btn.innerText = "Copy Key", 2000);
     }
 
-    return Math.floor(Date.UTC(year,month-1,day)/86400000);
-}
-
-/* Exact next 6 AM IST */
-function getMillisecondsUntilNextReset(){
-    const now=new Date();
-    const india=getIndiaTime();
-
-    let target=Date.UTC(
-        india.year,india.month-1,india.day,0,30,0
-    );
-
-    if(india.hour>=6) target+=86400000;
-
-    let delay=target-now.getTime();
-    return delay<1000?1000:delay;
-}
-
-/* Key algorithm — ADARSH-XXXX-XXXX */
-function generateKeyFromIP(ip){
-    const day=getDailyCycle();
-
-    let cleanIP=ip.replace(/\./g,"");
-    if(cleanIP.length>6) cleanIP=cleanIP.substring(0,6);
-
-    const ipSeed=parseInt(cleanIP,10);
-    let seed=ipSeed+day+KEY_YEAR;
-
-    const chars="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
-
-    let finalKey="ADARSH-";
-
-    for(let i=0;i<2;i++){
-        if(i>0) finalKey+="-";
-
-        for(let j=0;j<4;j++){
-            const x=Math.sin(seed++)*10000;
-            const random=Math.abs(x-Math.floor(x));
-            const index=Math.floor(random*chars.length);
-            finalKey+=chars.charAt(index);
-        }
-    }
-
-    return finalKey;
-}
-
-async function generateLockedKey(){
-    const keyEl=document.getElementById("finalKey");
-    const ipEl=document.getElementById("ipAddress");
-    const statusEl=document.getElementById("status");
-    const errorEl=document.getElementById("error");
-
-    keyEl.innerText="SECURE FETCHING...";
-    ipEl.innerText="CONNECTING...";
-    statusEl.innerText="SYSTEM: GETTING IP";
-    errorEl.style.display="none";
-
-    try{
-        const ip=await getPublicIP();
-        ipEl.innerText=ip;
-        keyEl.innerText=generateKeyFromIP(ip);
-        statusEl.innerText="SYSTEM: ADARSH MODS • KEY READY";
-    }catch(e){
-        console.error(e);
-        ipEl.innerText="UNAVAILABLE";
-        keyEl.innerText="CONNECT TO INTERNET";
-        statusEl.innerText="SYSTEM: OFFLINE";
-        errorEl.style.display="block";
-    }
-}
-
-function scheduleDailyRefresh(){
-    setTimeout(async()=>{
-        await generateLockedKey();
-        scheduleDailyRefresh();
-    },getMillisecondsUntilNextReset());
-}
-
-async function copyKey(){
-    const key=document.getElementById("finalKey").innerText;
-    if(key.includes("SECURE")||key.includes("CONNECT")) return;
-
-    try{
-        await navigator.clipboard.writeText(key);
-        const btn=document.getElementById("copyBtn");
-        btn.innerText="COPIED SUCCESSFULLY ✓";
-        setTimeout(()=>btn.innerText="COPY LICENSE KEY",1800);
-    }catch(e){
-        alert("Copy failed. Please copy the key manually.");
-    }
-}
-
-function openTelegram(){
-    window.location.href=TELEGRAM_LINK;
-}
-
-window.addEventListener("load",checkSecurity);
-</script>
+    window.onload = processKey;
+  </script>
 </body>
 </html>
